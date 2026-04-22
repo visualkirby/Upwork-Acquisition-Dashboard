@@ -15,11 +15,13 @@ BigQuery SQL exports → CSV → Excel data tabs → Dashboard visualizations
 
 ## 📊 Dashboard Sections
 
-### Pipeline Summary
-6 KPI tiles covering top-level acquisition metrics — jobs discovered, scoring rate, APPLY decisions, proposals sent, avg job score, and reply rate.
-
 ### Acquisition Funnel
 Discovery funnel horizontal bar chart, tool market share donut chart, and score distribution stacked bar chart.
+
+<!-- ===================== -->
+<!--        PREVIEW        -->
+<!-- ===================== -->
+![Preview](./BackgroundEraser_20260422_115445477.png)
 
 ### Job Quality
 Job complexity breakdown by category (Large, Normal, Complex, Simple) with percentage distribution.
