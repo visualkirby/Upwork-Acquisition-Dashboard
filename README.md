@@ -16,6 +16,8 @@ Built a portfolio Excel dashboard for Benchline Analytics that visualizes the fu
 **Pipeline flow:**
 BigQuery SQL exports → CSV → Excel data tabs → Dashboard visualizations
 
+[Upwork Acquisition Dashboard](https://github.com/visualkirby/Upwork-Acquisition-Dashboard/blob/main/UpWork_Acquisition_Dashboard.xlsx)
+
 ---
 
 ## 📊 Dashboard Sections
