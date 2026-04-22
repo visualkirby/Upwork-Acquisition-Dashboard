@@ -11,7 +11,7 @@ Built a portfolio Excel dashboard for Benchline Analytics that visualizes the fu
 <!-- ===================== -->
 <!--        PREVIEW        -->
 <!-- ===================== -->
-![Preview](./Acquisition_Dashboard_Full.png)
+![Preview](./Acquistion_Dashboard_Full.png)
 
 **Pipeline flow:**
 BigQuery SQL exports → CSV → Excel data tabs → Dashboard visualizations
