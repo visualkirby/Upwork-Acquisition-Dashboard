@@ -8,6 +8,11 @@
 
 Built a portfolio Excel dashboard for Benchline Analytics that visualizes the full Upwork client acquisition pipeline. The dashboard connects 8 BigQuery SQL query exports across 6 data tabs, powering KPI tiles, charts, and performance tables that update as new data is exported from BigQuery.
 
+<!-- ===================== -->
+<!--        PREVIEW        -->
+<!-- ===================== -->
+![Preview](./Acquisition_Dashboard_Full.png)
+
 **Pipeline flow:**
 BigQuery SQL exports → CSV → Excel data tabs → Dashboard visualizations
 
@@ -18,22 +23,50 @@ BigQuery SQL exports → CSV → Excel data tabs → Dashboard visualizations
 ### Acquisition Funnel
 Discovery funnel horizontal bar chart, tool market share donut chart, and score distribution stacked bar chart.
 
-
+<!-- ===================== -->
+<!--        PREVIEW        -->
+<!-- ===================== -->
+![Preview](./Acquisition_Funnel.png)
 
 ### Job Quality
 Job complexity breakdown by category (Large, Normal, Complex, Simple) with percentage distribution.
 
-### Keyword Intelligence
+<!-- ===================== -->
+<!--        PREVIEW        -->
+<!-- ===================== -->
+![Preview](./Job_Quality.png)
+
+### Keyword Performance
 Keyword Priority Score horizontal bar chart showing top keywords by score. Score vs Competition scatter plot with Test More vs Drop status color coding.
+
+<!-- ===================== -->
+<!--        PREVIEW        -->
+<!-- ===================== -->
+![Preview](./Keyword_Performance.png)
 
 ### Proposal Performance
 Proposal Template Performance grouped bar chart showing reply rate, interview rate, and hire rate by template and hook/CTA version combination.
 
+<!-- ===================== -->
+<!--        PREVIEW        -->
+<!-- ===================== -->
+![Preview](./Proposal_Performance.png)
+
 ### Connect Efficiency
 4 KPI tiles covering MTD connects used, projected month-end cost, on-track flag, and net value per connect. Projection vs Target connect spend progress bar chart. Placeholder reserved for monthly trend line chart after first month-end snapshot.
 
+<!-- ===================== -->
+<!--        PREVIEW        -->
+<!-- ===================== -->
+![Preview](./Connect_Efficiency.png)
+
 ### Session Performance
 3 session KPI tiles (avg jobs logged, avg proposals sent, avg connects spent). Session Yield multi-line chart tracking jobs logged, moved to scoring, proposals sent, and connects spent across all sessions.
+
+<!-- ===================== -->
+<!--        PREVIEW        -->
+<!-- ===================== -->
+![Preview](./Session_Performance.png)
 
 ---
 
