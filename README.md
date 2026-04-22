@@ -66,12 +66,15 @@ Proposal Template Performance grouped bar chart showing reply rate, interview ra
 ```
 Upwork-Acquisition-Dashboard/
 ├── README.md
+    ├── Acquisition_Dashboard_Full.png
 ├── UpWork_Acquisition_Dashboard.xlsx
 └── screenshots/
-    ├── dashboard_full.png
-    ├── dashboard_pipeline_summary.png
-    ├── dashboard_keyword_proposal.png
-    └── dashboard_session_cost.png
+    ├── Acquisition_Funnel.png
+    ├── Job_Quality.png
+    ├── Keyword_Performance.png
+    ├── Proposal_Performance.png
+    ├── Connect_Efficiency.png
+    └── Session_Performance.png
 ```
 
 ---
