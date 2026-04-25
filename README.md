@@ -88,6 +88,19 @@ Proposal Template Performance grouped bar chart showing reply rate, interview ra
 
 ---
 
+## 🔄 Refresh Architecture
+
+Dashboard connects to live data via Power Query:
+
+- All 8 data tabs connect to BigQuery query results via Connected Sheets
+- Configured to refresh on file open and every 60 minutes while open
+- Data → Refresh All triggers all connections simultaneously
+- No manual CSV exports or copy-paste required
+
+Pipeline: Google Sheets → BigQuery External Tables → Connected Sheets → Power Query → Excel Dashboard
+
+---
+
 ## 🛠️ Tools & Technologies
 
 - **Microsoft Excel** — dashboard visualization and formula layer
