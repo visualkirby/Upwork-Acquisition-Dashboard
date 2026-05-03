@@ -1,0 +1,172 @@
+{
+  "project_id": "PROJ_UPWORK_ACQUISITION_DASHBOARD",
+  "group_id": "PROJECT_GROUP_ANALYTICS",
+
+  "title": "Upwork Client Acquisition Dashboard",
+  "short_summary": "Excel dashboard visualizing freelance acquisition funnel, keyword performance, and proposal analytics from a BigQuery SQL pipeline",
+  "summary": "An end-to-end analytics dashboard built in Excel to visualize freelance client acquisition activity on Upwork. Data flows from Google Sheets through CSV exports to BigQuery, where SQL analysis is performed, with results surfaced in a five-section Excel dashboard covering acquisition funnel, job quality scoring, keyword intelligence, proposal performance, and connect efficiency.",
+
+  "role_scope": "base|operations",
+
+  "roles": [
+    "Data Analyst",
+    "Business Analyst",
+    "Operations Analyst",
+    "BI Engineer"
+  ],
+
+  "skills": [
+    "Excel",
+    "SQL",
+    "BigQuery",
+    "Dashboard Design",
+    "KPI Development",
+    "Funnel Analysis",
+    "Business Intelligence"
+  ],
+
+  "repo_link": "https://github.com/visualkirby/Upwork-Acquisition-Dashboard",
+
+  "domains": [
+    "business_analytics",
+    "sales_analytics",
+    "funnel_analytics",
+    "keyword_intelligence"
+  ],
+
+  "tags": [
+    "excel",
+    "sql",
+    "bigquery",
+    "dashboard",
+    "funnel_analysis",
+    "acquisition_analytics"
+  ],
+
+  "datasets": [],
+
+  "components": [
+
+    {
+      "component_id": "COMP_UPWORK_DASH_FUNNEL",
+      "name": "Acquisition Funnel Analysis",
+      "component_type": "analytics_layer",
+      "deliverable_type": "dashboard_section",
+
+      "objective": "Visualize the end-to-end freelance job acquisition funnel from job discovery through proposal submission and conversion.",
+      "business_value": "Identifies drop-off points in the acquisition process and informs where to focus effort for improved conversion rates.",
+
+      "component_link": "https://github.com/visualkirby/Upwork-Acquisition-Dashboard/blob/main/UpWork_Acquisition_Dashboard.xlsx",
+
+      "files": ["UpWork_Acquisition_Dashboard.xlsx"],
+
+      "tools": [
+        { "tool_label": "Excel", "tool_keyword": "excel" },
+        { "tool_label": "SQL", "tool_keyword": "sql" },
+        { "tool_label": "BigQuery", "tool_keyword": "bigquery" }
+      ],
+
+      "skills": [
+        { "skill_label": "Funnel Analysis", "skill_keyword": "funnel_analysis", "weight": 0.6 },
+        { "skill_label": "Data Visualization", "skill_keyword": "data_visualization", "weight": 0.4 }
+      ]
+    },
+
+    {
+      "component_id": "COMP_UPWORK_DASH_JOB_QUALITY",
+      "name": "Job Quality Scoring",
+      "component_type": "analytics_layer",
+      "deliverable_type": "dashboard_section",
+
+      "objective": "Score and categorize job postings by quality indicators to prioritize high-potential opportunities.",
+      "business_value": "Reduces time spent on low-fit opportunities by surfacing the jobs most likely to convert into paid engagements.",
+
+      "component_link": "https://github.com/visualkirby/Upwork-Acquisition-Dashboard/blob/main/UpWork_Acquisition_Dashboard.xlsx",
+
+      "files": ["UpWork_Acquisition_Dashboard.xlsx"],
+
+      "tools": [
+        { "tool_label": "Excel", "tool_keyword": "excel" },
+        { "tool_label": "SQL", "tool_keyword": "sql" }
+      ],
+
+      "skills": [
+        { "skill_label": "Scoring Models", "skill_keyword": "scoring_models", "weight": 0.5 },
+        { "skill_label": "KPI Development", "skill_keyword": "kpi_development", "weight": 0.5 }
+      ]
+    },
+
+    {
+      "component_id": "COMP_UPWORK_DASH_KEYWORD",
+      "name": "Keyword Performance & Intelligence",
+      "component_type": "analytics_layer",
+      "deliverable_type": "dashboard_section",
+
+      "objective": "Analyze keyword search performance to identify high-yield job categories and search terms for targeted job discovery.",
+      "business_value": "Improves job discovery efficiency by focusing search activity on keywords with the highest proposal-to-connect conversion rates.",
+
+      "component_link": "https://github.com/visualkirby/Upwork-Acquisition-Dashboard/blob/main/UpWork_Acquisition_Dashboard.xlsx",
+
+      "files": ["UpWork_Acquisition_Dashboard.xlsx"],
+
+      "tools": [
+        { "tool_label": "Excel", "tool_keyword": "excel" },
+        { "tool_label": "SQL", "tool_keyword": "sql" }
+      ],
+
+      "skills": [
+        { "skill_label": "Data Analysis", "skill_keyword": "data_analysis", "weight": 0.5 },
+        { "skill_label": "Business Insights", "skill_keyword": "business_insights", "weight": 0.5 }
+      ]
+    },
+
+    {
+      "component_id": "COMP_UPWORK_DASH_PROPOSAL",
+      "name": "Proposal Performance Analysis",
+      "component_type": "analytics_layer",
+      "deliverable_type": "dashboard_section",
+
+      "objective": "Track proposal activity, bid rates, and response outcomes to evaluate proposal strategy effectiveness.",
+      "business_value": "Enables data-driven refinement of proposal content and targeting to improve win rates and reduce wasted connects.",
+
+      "component_link": "https://github.com/visualkirby/Upwork-Acquisition-Dashboard/blob/main/UpWork_Acquisition_Dashboard.xlsx",
+
+      "files": ["UpWork_Acquisition_Dashboard.xlsx"],
+
+      "tools": [
+        { "tool_label": "Excel", "tool_keyword": "excel" },
+        { "tool_label": "SQL", "tool_keyword": "sql" }
+      ],
+
+      "skills": [
+        { "skill_label": "Sales Analytics", "skill_keyword": "sales_analytics", "weight": 0.5 },
+        { "skill_label": "KPI Development", "skill_keyword": "kpi_development", "weight": 0.5 }
+      ]
+    },
+
+    {
+      "component_id": "COMP_UPWORK_DASH_CONNECT",
+      "name": "Connect Efficiency Analysis",
+      "component_type": "analytics_layer",
+      "deliverable_type": "dashboard_section",
+
+      "objective": "Measure the return on Upwork connects spent relative to proposals submitted and engagements won.",
+      "business_value": "Optimizes budget allocation for Upwork connects by identifying the job types and strategies that deliver the best ROI per connect spent.",
+
+      "component_link": "https://github.com/visualkirby/Upwork-Acquisition-Dashboard/blob/main/UpWork_Acquisition_Dashboard.xlsx",
+
+      "files": ["UpWork_Acquisition_Dashboard.xlsx"],
+
+      "tools": [
+        { "tool_label": "Excel", "tool_keyword": "excel" },
+        { "tool_label": "SQL", "tool_keyword": "sql" }
+      ],
+
+      "skills": [
+        { "skill_label": "ROI Analysis", "skill_keyword": "roi_analysis", "weight": 0.5 },
+        { "skill_label": "Cost Efficiency Analysis", "skill_keyword": "cost_efficiency_analysis", "weight": 0.5 }
+      ]
+    }
+
+  ]
+}
